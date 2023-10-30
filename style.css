@@ -1,0 +1,85 @@
+body {
+  background-color: FFF0CE;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #0174BE;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+h1 {
+  color : #0C356A;
+  font-family: 'Crete Round', serif;
+  font-size: 40 px;
+  line-height: 40 px;
+}
+
+h2 {
+  color: rgba(12, 53, 106, 0.8);
+  font-family: 'Crete Round', serif ;
+  font-size: 25 px;
+  line-height: 25 px;
+  font-style: italic;
+}
+a {
+  color: rgba(12, 53, 106, 0.5);
+  text-decoration:none;
+}
+a:hover {
+  transition-duration: 0.1s;
+  color: rgba(12, 53, 106, 1) ;
+  text-decoration: underline  ;
+}
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+.card-box {
+  margin: 20px 20px auto;
+  padding: 20px;
+  background-color: rgb(225, 170, 116, 0.2);
+  border: solid 1px #0C356A;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3) ;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-300 {
+  width: 300px;
+  height: 300px;
+}
+.text-center {
+  text-align: center;
+}
+.card-avatar {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px 20px auto;
+  background-color: rgb(225, 170, 116, 0.2);
+  border: solid 1px #0C356A;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3) ;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+.blue-button {
+  font-size: 15px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #FFF0CE;
+  border-radius: 5px;
+  border: solid 1px #0C356A;
+  color: #0C356A;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.blue-button:hover {
+  transition-duration: 0.1s;
+  background-color: #0C356A;
+  border: solid 1px #FFF0CE;
+  color: #FFF0CE;
+  font-size: 20px;
+}
